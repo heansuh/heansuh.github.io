@@ -3,13 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'Winterdusk: where the sea of thoughts meets the horizon.'
-subtitle: 'Data Engineering Blog with (Life) Thoughts.'
-description: 'Winterdusk.'
+title: 'Winterdusk.'
+subtitle: ''
+description: |
+  Winterdusk: where the sea of thoughts meets the horizon.
+  Welcome to the Data Engineering Blog with (Life) Thoughts.
 keywords:
 author: Winterdusk
 language: en
-timezone: ''
+timezone: 'Europe/Berlin'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
