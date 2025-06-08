@@ -3,18 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Mr. Will
-subtitle: Mr. Will's Blog
-description: Mr. Will is talking here.
-keywords: MrWillCom
-author: Mr. Will
+title: 'Winterdusk: where the sea of thoughts meets the horizon.'
+subtitle: 'Data Engineering Blog with (Life) Thoughts.'
+description: 'Winterdusk.'
+keywords:
+author: Winterdusk
 language: en
-timezone: 'Asia/Shanghai'
+timezone: ''
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.mrwillcom.com/
-root: /
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: http://heansuh.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -41,18 +40,17 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true # Enable post asset folder
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -100,55 +98,10 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: cupertino
 
-plugins:
-  hexo-generator-feed
-
-#Feed Atom
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: https://github.com/heansuh/heansuh.github.io
+  branch: 
 
-search:
-  path: search.json
-  content: false
-
-# Others
-
-## Tidio
-# tidio: //code.tidio.co/6bkvqlfpdbtihnufei8yxpsvf98bq5gv.js
-
-## Waline
-### Docs: https://waline.js.org/en/server/basic.html#basic-configuration
-# waline:
-#   path: location.pathname
-#   serverURL: "'https://mrwillcom-blog-comments.vercel.app/'"
-#   lang: "'en'"
-#   placeholder: "''"
-
-## giscus
-giscus:
-  <script src="https://giscus.app/client.js"
-    data-repo="MrWillCom/MrWillCom.github.io"
-    data-repo-id="MDEwOlJlcG9zaXRvcnkyODg5NTc5MTA="
-    data-category="Announcements"
-    data-category-id="DIC_kwDOETkl1s4COQZm"
-    data-mapping="pathname"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="preferred_color_scheme"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-  </script>
-
-## Ackee
-# ackee:
-#   <script async src="https://ackee-production-786f.up.railway.app/tracker.js" data-ackee-server="https://ackee-production-786f.up.railway.app" data-ackee-domain-id="e49ea89e-183d-4645-b278-a9c3f10d13db"></script>
