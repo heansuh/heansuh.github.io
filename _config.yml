@@ -4,10 +4,8 @@
 
 # Site
 title: 'Winterdusk.'
-subtitle: ''
-description: |
-  Winterdusk: where the sea of thoughts meets the horizon.
-  Welcome to the Data Engineering Blog with (Life) Thoughts.
+subtitle: 'Data Engineering Blog with (Life) Thoughts.'
+description: Winterdusk.
 keywords:
 author: Winterdusk
 language: en
@@ -98,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cactus
+theme: cupertino
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
