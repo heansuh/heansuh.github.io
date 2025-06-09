@@ -4,10 +4,8 @@
 
 # Site
 title: 'Winterdusk.'
-subtitle: ''
-description: |
-  Winterdusk: where the sea of thoughts meets the horizon.
-  Welcome to the Data Engineering Blog with (Life) Thoughts.
+subtitle: 'Data Engineering Blog with (Life) Thoughts.'
+description: Winterdusk.
 keywords:
 author: Winterdusk
 language: en
