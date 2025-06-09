@@ -1,7 +1,7 @@
 ---
 title: First Post
 date: 2025-06-08
-cover_image: 'img/winterdusk_favicon.png'
+cover_image: /img/winterdusk_favicon.png
 cover_image_alt: Winterdusk favicon
 categories: Thoughts
 tags: thoughts
