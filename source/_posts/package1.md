@@ -1,8 +1,8 @@
 ---
 title: Create local package and using it - [1]
 date: 2025-06-09
-# cover_image:
-# cover_image_alt:
+cover_image: /img/package1.png
+cover_image_alt: Screenshot of terminal for making use of local package.
 categories: Python
 tags: python, package, class, function, constructor, object
 ---
@@ -72,9 +72,9 @@ ModTowns.printTowns()
 
 At the end, you'll be able to see something like this (please ignore the outputs before):
 
-![3 towns in Kiel](package1/image.png)
+![3 towns in Kiel](package1\package1.png)
 
-There were errors initially with naming, such as `from Kiel import Towns`
+There were errors initially with naming, such as `from Kiel import Towns`.
 
 I also realised that I didn't add the `__init__.py` and it works fine.
 

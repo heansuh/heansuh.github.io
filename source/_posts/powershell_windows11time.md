@@ -1,7 +1,7 @@
 ---
 title: Time changed due to Linux UTC - how to change it on Windows 11
 date: 2025-06-10
-cover_image: /_posts/powershell_windows11time/powershell_windows11time.png
+cover_image: /img/powershell_windows11time.png
 cover_image_alt: PowerShell screenshot for Windows 11.
 categories: PowerShell/cmd
 tags: powershell, windows11, linux, cmd, terminal, dualboot
